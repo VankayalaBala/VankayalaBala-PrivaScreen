@@ -68,7 +68,3 @@ npm run dev
 5. Click **Anonymize Content** to safely redact the data.
 6. Copy or download the secured results for your records.
 
-## 🎓 Academic Project Context
-Developed as a B.Tech Computer Science and Engineering project at **Vasireddy Venkatadri Institute of Technology (VVIT)**.
-
-**Lead Developer:** Vankayala Bala Harshitha
