@@ -27,7 +27,7 @@ git clone [https://github.com/VankayalaBala/VankayalaBala-PrivaScreen.git](https
 cd VankayalaBala-PrivaScreen
 
 
-2. Backend Setup
+**### 2. Backend Setup**
 Open a terminal and navigate to the backend folder:
 
 
@@ -49,8 +49,7 @@ python app.py
 The backend API will start on http://127.0.0.1:5000
 
 
-3. Frontend Setup
-
+**### 3. Frontend Setup **
 Open a new terminal and navigate to the frontend folder:
 
 
