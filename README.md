@@ -25,12 +25,11 @@ PrivaScreen is an enterprise-grade web application designed to automatically det
 ```bash
 git clone [https://github.com/VankayalaBala/VankayalaBala-PrivaScreen.git](https://github.com/VankayalaBala/VankayalaBala-PrivaScreen.git)
 cd VankayalaBala-PrivaScreen
+```
 
-
-**### 2. Backend Setup**
-Open a terminal and navigate to the backend folder:
-
-
+### 2. Backend Setup
+Open a terminal and navigate to the `backend` folder:
+```bash
 cd backend
 
 # Create and activate virtual environment
@@ -45,14 +44,12 @@ python -m spacy download en_core_web_lg
 
 # Start the server
 python app.py
+```
+*The backend API will start on `http://127.0.0.1:5000`*
 
-The backend API will start on http://127.0.0.1:5000
-
-
-**### 3. Frontend Setup **
-Open a new terminal and navigate to the frontend folder:
-
-
+### 3. Frontend Setup
+Open a new terminal and navigate to the `frontend` folder:
+```bash
 cd frontend
 
 # Install dependencies
@@ -60,19 +57,18 @@ npm install axios
 
 # Start the development server
 npm run dev
+```
+*The React application will start on `http://localhost:5173`*
 
-The React application will start on http://localhost:5173
+## 🧑‍💻 Usage
+1. Open your browser and navigate to `http://localhost:5173`.
+2. Create a new account or log in.
+3. Navigate to the **Redaction Studio** from the sidebar.
+4. Paste text or upload a document containing sensitive information.
+5. Click **Anonymize Content** to safely redact the data.
+6. Copy or download the secured results for your records.
 
-🧑‍💻 Usage
+## 🎓 Academic Project Context
+Developed as a B.Tech Computer Science and Engineering project at **Vasireddy Venkatadri Institute of Technology (VVIT)**.
 
-    Open your browser and navigate to http://localhost:5173.
-
-    Create a new account or log in.
-
-    Navigate to the Redaction Studio from the sidebar.
-
-    Paste text or upload a document containing sensitive information.
-
-    Click Anonymize Content to safely redact the data.
-
-    Copy or download the secured results for your records.
+**Lead Developer:** Vankayala Bala Harshitha
